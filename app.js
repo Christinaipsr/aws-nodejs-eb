@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'AWS Training Content CI/CD & Elastic Beanstalk'
+    title: 'AWS Training on Elastic Beanstalk'
     })
     res.status(200).end();
 })
